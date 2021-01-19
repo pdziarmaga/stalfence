@@ -926,7 +926,7 @@ input[type='checkbox'] {
 	float: left;
 	overflow: hidden;
 	width: 100%;
-	background-color: #000; /* to hide 1px white margin in IE */
+	background-color: transparent; /* to hide 1px white margin in IE */
 }
 
 .cards-2 .card .element-item img {
@@ -950,7 +950,7 @@ input[type='checkbox'] {
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.4);
-	opacity: 1;
+	opacity: 0;
 	text-align: center;
 	transition: all 0.3s;
 }
@@ -1436,7 +1436,7 @@ input[type='checkbox'] {
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.4);
-	opacity: 1;
+	opacity: 0;
 	text-align: center;
 	transition: all 0.3s;
 }
@@ -2028,7 +2028,7 @@ a:hover.back-to-top {
 	}
 
 	.filter .element-item:hover .element-item-overlay {
-		opacity: 1;
+		opacity: 0;
 	}
 
 	.cards-2 .card .element-item .element-item-overlay { 
@@ -2037,7 +2037,7 @@ a:hover.back-to-top {
 	}
 
 	.cards-2 .card .element-item:hover .element-item-overlay {
-		opacity: 1;
+		opacity: 0;
 	}
 	/* end of projects */
 
@@ -2180,7 +2180,7 @@ a:hover.back-to-top {
 
 	/* Details 1 */
 	.accordion {
-		height: 49.625rem; 
+		height: 45.625rem; 
 	}
 	
 	.accordion .area-1 {
