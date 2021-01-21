@@ -1,4 +1,5 @@
 $(document).ready(function () {  
+     $('#collapseOne').collapse({toggle: true});
      $('#collapseTwo').collapse({toggle: true});
      $('#collapseThree').collapse({toggle: true})
      $('#collapseFour').collapse({toggle: true})
@@ -6,12 +7,19 @@ $(document).ready(function () {
      $('#collapseSix').collapse({toggle: true})
    });
 
+
+   let rowHeight = 120;
+
+   if ( $(window).width() < 1100) {  
+        rowHeight = rowHeight / 2;
+   }
+
 $(document).ready(function () {
     $('#gallery-wrought').justifiedGallery({
-        rowHeight: 110,
+        rowHeight: rowHeight,
         maxRowHeight: null,
         margins: 3,
-        border: 3,
+        border: 1,
         rel: 'liveDemo',
         lastRow: 'nojustify',
         captions: false,
@@ -29,10 +37,10 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $('#gallery-modern').justifiedGallery({
-        rowHeight: 110,
+        rowHeight: rowHeight,
         maxRowHeight: null,
         margins: 3,
-        border: 3,
+        border: 1,
         rel: 'liveDemo',
         lastRow: 'nojustify',
         captions: false,
@@ -50,10 +58,10 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $('#gallery-industrial').justifiedGallery({
-        rowHeight: 110,
+        rowHeight: rowHeight,
         maxRowHeight: null,
         margins: 3,
-        border: 3,
+        border: 1,
         rel: 'liveDemo',
         lastRow: 'nojustify',
         captions: false,
@@ -71,10 +79,10 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $('#gallery-mesh').justifiedGallery({
-        rowHeight: 110,
+        rowHeight: rowHeight,
         maxRowHeight: null,
         margins: 3,
-        border: 3,
+        border: 1,
         rel: 'liveDemo',
         lastRow: 'nojustify',
         captions: false,
@@ -92,10 +100,10 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $('#gallery-balcony').justifiedGallery({
-        rowHeight: 110,
+        rowHeight: rowHeight,
         maxRowHeight: null,
         margins: 3,
-        border: 3,
+        border: 1,
         rel: 'liveDemo',
         lastRow: 'nojustify',
         captions: false,
@@ -113,10 +121,10 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $('#gallery-automation').justifiedGallery({
-        rowHeight: 110,
+        rowHeight: rowHeight,
         maxRowHeight: null,
         margins: 3,
-        border: 3,
+        border: 1,
         rel: 'liveDemo',
         lastRow: 'nojustify',
         captions: false,
