@@ -838,11 +838,11 @@ input[type='checkbox'] {
 	transition: all 0.3s;
 }
 
-.basic-1 .image-container:hover img {
-	-moz-transform: scale(1.15);
-	-webkit-transform: scale(1.15);
-	transform: scale(1.15);
-} 
+/* .basic-1 .image-container:hover img { */
+	/* -moz-transform: scale(1.15); */
+	/* -webkit-transform: scale(1.15); */
+	/* transform: scale(1.15); */
+/* }  */
 /* end of hover animation */
 
 
